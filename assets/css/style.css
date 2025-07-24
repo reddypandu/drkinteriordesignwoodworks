@@ -5768,8 +5768,10 @@ color: var(--white-color) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .image-grid.home-grid{
+    display: grid;
       grid-template-columns: repeat(4, 1fr);
       padding-inline: 1rem;
+      gap: 20px;
 }
 .image-grid.home-grid img{
     border-radius: unset;
