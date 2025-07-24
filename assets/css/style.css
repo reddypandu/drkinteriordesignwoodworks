@@ -5767,12 +5767,27 @@ color: var(--white-color) !important;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+.image-grid.home-grid{
+      grid-template-columns: repeat(4, 1fr);
+      padding-inline: 1rem;
+}
+.image-grid.home-grid img{
+    border-radius: unset;
+    height:350px;
+}
+.image-grid.home-grid img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
 
 /* Optional: Handle very small screens if needed */
 @media (max-width: 600px) {
   .image-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .image-grid.home-grid{
+      grid-template-columns: repeat(2, 1fr);
+}
 }
 .img-box1 img{
      filter: grayscale(100%);
