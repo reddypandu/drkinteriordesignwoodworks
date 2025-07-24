@@ -126,9 +126,13 @@
     position: relative;
     display: block;
     padding: 16px 10px ;
-    background-color: rgb(223, 207, 186);
+    background-color: black;
 }
-
+.home-blog .blog-one__single-content {
+    padding: 10px;
+    background-color: var(--thm-white);
+    box-shadow: 0px 0px 18px 0px rgba(229, 230, 232, 0.72);
+}
 .blog-one__single-content .meta-info {
     position: relative;
     display: flex;
