@@ -5776,6 +5776,7 @@ color: var(--white-color) !important;
 .image-grid.home-grid img{
     border-radius: unset;
     height:350px;
+    object-fit: cover;
 }
 .image-grid.home-grid img:hover{
     transform: scale(1.05);
